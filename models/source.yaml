@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+    - name: sources
+      database: dbt-study-412923
+      schema: dbt_example
+      tables:
+        - name: categories
+        - name: products
+        - name: suppliers
+        - name: employees
+        - name: order_details
+        - name: customers
+        - name: orders
+        - name: shippers
