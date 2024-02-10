@@ -1,4 +1,5 @@
---customer model
+-- Arquivo 01 - customer model
+-- Objetivo: criar nova tabela 'customers' sesm registros duplicados de company_name, contact_name
 
 -- Etapa 1 - Usamos WINDOWS FUNCTIONS para adicionar uma coluna que vai ter valor
 with markup as (
@@ -17,4 +18,4 @@ with markup as (
 )
 
 select * from final
--- Antes eram 94 linhas, ao ifnal, deverá ser 91 linhas
+-- Antes eram 94 linhas, ao final, deverá ser 91 linhas. Ou seja, 3 registro foram removidos
